@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head> <link rel="stylesheet" type"text/css" href="team4.css">
+	<script>
+		function goBack() {
+    	window.history.back()
+			}
+	</script>
 </head>
 <body>
+	<a href = "index.html">
+		<img src="README.jpg" alt="aLot" style="width:100%;"></a>
+
 
 <div>
  <h5> What food do you like </h5>
-	<form action="action_page.php">
+	<form action="wait.html">
 	<select name="food">
 	<option value="American">American</option>
 	<option value="Asian">Asian</option>
@@ -16,18 +24,25 @@
 	<br><br>
 	</form>
 <h5> How much would you like to spend </h5>
-	<form action="action_page.php">
+	<form action="wait.html">
 	<select name="$$">
 	<option value="$">$</option>
 	<option value="$$">$$</option>
-	<option value="Italian">Italian</option>
-	<option value="Coffee">Cofee</option>
+	<option value="$$$">$$$</option>
 	</select>
 	<br><br>
-	<input type="submit">
+	<input type="submit"> 
 	</form>
 </div>
 
-
+<div class="navigation">
+			<ul id="menu">
+ <li><a onclick="goBack()">Go Back</a><li>
+ <li><a href="history.html">History</a></li>
+ <li><a href="profile.html">Profile</a></li>
+ <li><a href="friends.html">Find Friends</a></li>
+ <li><a href="fun.html">Fun</a></li>
+</ul>  
+		</div>
 </body>
 </html>
